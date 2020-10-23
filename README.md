@@ -4,7 +4,7 @@ A basic sample of integrating images into a MySQL database.
 
 ## The End Goal
 
-The `images.sql` file in the repository includes a list of Instagram images that can be imported into your MySQL database. There are also thre eimages file in the rpository that should be placed in the same folder as your PHP file. Once those have been imported we will use PHP and SQL to display the data from the MySQL database in an HTML webpage. 
+The `images.sql` file in the repository includes a list of Instagram images that can be imported into your MySQL database. There are also three image files in the repository that should be placed in the same folder as your PHP file. Once those have been imported we will use PHP and SQL to display the data from the MySQL database in an HTML webpage. 
 
 There are multiple methods of retrieving data from a MySQL database using PHP. For simplicity sake the example below will use a series of `mysqli` PHP functions. 
 
@@ -14,7 +14,7 @@ There are multiple methods of retrieving data from a MySQL database using PHP. F
 
 If you're using a local server phpMyAdmin can usually be accessed by starting your server and then clicking on the phpMyAdmin link. If you're using a hosting account there will be a link to phpMyAdmin in your control panel. 
 
-Once you have phpMyAdmin open, click on the import tab and select the `links.sql` file from this repository. This will create a table called `links` and populate it with some sample data. 
+Once you have phpMyAdmin open, click on the import tab and select the `images.sql` file from this repository. This will create a table called `links` and populate it with some sample data. 
 
 2. Place the images form the repository in the same folder as your PHP. 
 
