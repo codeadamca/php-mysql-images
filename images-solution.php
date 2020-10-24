@@ -50,7 +50,7 @@ if (!$connect)
 
             echo '<h2>'.$record['name'].'</h2>';
 
-            echo '<img src="'.$record['filename'].'" width="100">';
+            echo '<img src="'.$record['filename'].'" width="300">';
 
         }
 
