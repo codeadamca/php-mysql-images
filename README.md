@@ -1,4 +1,4 @@
-# php-mysql-images
+# Using PHP to Display Images from a MySQL Database
 
 A basic sample of integrating images into a MySQL database.
 
