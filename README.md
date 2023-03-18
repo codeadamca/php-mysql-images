@@ -44,7 +44,7 @@ There are multiple methods of retrieving data from a MySQL database using PHP. F
 
         <?php
 
-        $query = 'SELECT 
+        $query = 'SELECT id,name,filename
           FROM 
           ORDER BY ';
 
@@ -81,19 +81,7 @@ There are multiple methods of retrieving data from a MySQL database using PHP. F
 
     > [More information on PHP and `mysqli_connect()`](https://www.php.net/manual/en/function.mysqli-connect.php)
 
-4. Update the SQL statement to include the fields, table, and order components.
-
-    ```php
-    <?php
-
-    $query = 'SELECT id,name,filename
-      FROM images
-      ORDER BY name';
-
-    ?>
-    ```
-
-5. Add PHP to loop to output the name and image:
+4. Add PHP to th existing while loop to output the name and image:
 
     ```php
     <?php
