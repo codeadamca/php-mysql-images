@@ -100,9 +100,9 @@ There are multiple methods of retrieving data from a MySQL database using PHP. F
 
 ***
 
-## Repository Resources
+## Repo Resources
 
-* [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [Filezilla](https://filezilla-project.org/) (or any FTP program)
 
 Full tutorial URL: https://codeadam.ca/learning/php-mysql-images.html
